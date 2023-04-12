@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FOFOCODERS</title>
+</head>
+<body>
+    <header><!--Vai ter a logo antes ou depois do menu-->
+        <nav>
+            <!--Aqui vai o menu-->
+            <a href="index.html">Home</a>
+            <a href="fofocoders.html">Página de Detalhe da Noticia</a>
+            <a href="contato.html">Página de Contato</a>
+            <a href="cadastro.html">Cadastre-se></a>
+        </nav>
+    </header>
+    <!--Section para o carrosel-->
+    <section>
+        <div>
+            <!--Aqui dentro vai o carrosel?!-->
+        </div>
+    </section> <!--Section de formulário-->
+    <form action="/submit" method="post">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" required>
+        
+        <label for="sobrenome">Sobrenome:</label>
+        <input type="text" id="sobrenome" name="sobrenome" required>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        
+        <label for="data-nascimento">Data de Nascimento:</label>
+        <input type="date" id="data-nascimento" name="data-nascimento" required>
+        
+        <label for="telefone">Telefone:</label>
+        <input type="tel" id="telefone" name="telefone" required>
+        
+        <label for="interesse">Qual conteúdo mais te interessa?</label>
+        <select id="interesse" name="interesse">
+          <option value="opcao1">Opção 1</option>
+          <option value="opcao2">Opção 2</option>
+          <option value="opcao3">Opção 3</option>
+          <!-- Adicione mais opções de acordo com as preferências -->
+        </select>
+        
+        <label for="termos-uso">Concordo com os termos de uso:</label>
+        <input type="checkbox" id="termos-uso" name="termos-uso" required>
+        
+        <label for="envio-emails">Aceito o envio de emails:</label>
+        <input type="checkbox" id="envio-emails" name="envio-emails">
+        
+        <input type="submit" value="Enviar">
+      </form>
+    <aside>
+        <!--Propagandas-->
+    </aside>
+    <footer><!--rodapé com as redes sociais da SoulCode--></footer>
+</body>
+</html>
